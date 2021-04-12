@@ -23,7 +23,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-repro@workspace:."
   dependencies:
-    lodash: "patch:lodash@npm:4.16.0#patches/lodash.patch"
+    lodash: ^4.16.0
   dependenciesMeta:
     lodash@4.16.0:
       unplugged: true

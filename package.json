@@ -1,6 +1,9 @@
 {
   "name": "renovate-repro",
   "dependencies": {
+    "lodash": "^4.16.0"
+  },
+  "resolutions": {
     "lodash": "patch:lodash@npm:4.16.0#patches/lodash.patch"
   },
   "dependenciesMeta": {
