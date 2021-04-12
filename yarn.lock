@@ -12,11 +12,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash@patch:lodash@npm:4.16.0#patches/lodash.patch::locator=renovate-repro%40workspace%3A.":
+  version: 4.16.0
+  resolution: "lodash@patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."
+  checksum: 31aafda596dacff99a467e711e68e639b81a5a83e4f097e48d1478cc7941b455971492448aa63d2d3891c6a4b14cfeb7af1054481aef43fef0359e20a9507bed
+  languageName: node
+  linkType: hard
+
 "renovate-repro@workspace:.":
   version: 0.0.0-use.local
   resolution: "renovate-repro@workspace:."
   dependencies:
-    lodash: 4.16.0
+    lodash: "patch:lodash@npm:4.16.0#patches/lodash.patch"
   dependenciesMeta:
     lodash@4.16.0:
       unplugged: true

@@ -37,16 +37,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["lodash", "npm:4.16.0"]
+            ["lodash", "patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."]
           ],
           "linkType": "SOFT",
         }]
       ]],
       ["lodash", [
-        ["npm:4.16.0", {
-          "packageLocation": "./.yarn/unplugged/lodash-npm-4.16.0-63abe90291/node_modules/lodash/",
+        ["patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A.", {
+          "packageLocation": "./.yarn/unplugged/lodash-patch-0b3fe55333/node_modules/lodash/",
           "packageDependencies": [
-            ["lodash", "npm:4.16.0"]
+            ["lodash", "patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."]
           ],
           "linkType": "HARD",
         }]
@@ -56,7 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["renovate-repro", "workspace:."],
-            ["lodash", "npm:4.16.0"]
+            ["lodash", "patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."]
           ],
           "linkType": "SOFT",
         }]
