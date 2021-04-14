@@ -1,5 +1,8 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "encrypted": {
+    "npmToken": "BED7EItapxVtgad/PDm6gZveisujSManQlYZsOzFxMRCdZ88pbYvpQLMzEtYXdQn3PKnJj5ClfwcrweDym03Fx9zrDNTlQlAzGJkgk9f54nJHCqm/V7RJ1BOhcBQV12okrV4KLAhiQmUWXyPUMKpMe6CMzQ7xazRS7sbGWheE3BtpCqY+mGP8BHF1HcR0o4ae7XbNz6+KE9I0RqGdxdo+npKlr+mzqBZ5RbIDkxSkBpTioh3xdmDaVk5WPI4QGcK0c78xVdXfqcbDnxyeNmS/T14v9imFLd97LEJ2y/4qfCfgbjMUZDpPmd1R1RcvPCqDouYmHSUQ9Tp4aQIsHAjMw=="
+  }
 }
