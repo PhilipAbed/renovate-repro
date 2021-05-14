@@ -1,7 +1,7 @@
 {
   "name": "renovate-repro",
   "dependencies": {
-    "@qsi/lobot": "^21.15.1",
+    "@qsi/lobot": "21.22.1",
     "lodash": "^4.16.0"
   },
   "resolutions": {
