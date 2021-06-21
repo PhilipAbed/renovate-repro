@@ -5,6 +5,7 @@
   "hostRules": [
     {
       "hostType": "npm",
+      "matchHost": "registry.npmjs.org",
       "encrypted": {
         "token": "GlgaO6U7RiFXN8/jwDOLoY3vCyqfbQeNyq+vvnhYlNeeWNmR6P3DgrL9hYLmH+Xu5EsUADXwrRXgPkwj/HnO8fylDGtsPv7TKcTeJAwXTA28DSUsRy8+PcT0NTe1rQTSvusS417dJ8e1bMl1qE83+RW5x4jekguR0Kn7tWOG1rBZ46Dhu1DFleek1YXeBpcB8OScr1GfzBFEi4YqcPK+al4wxTWSSXx2mj4uee6A6tCxyIBCMc34byOoQLYvzSybRX014tVAwLNtE88d9xArE969a6fgEdbr8GrZkerjmT50KnFoP+EqeL7Hrm7KbEDCgRbubvRFLS3u5IezGhw2iA=="
       }
