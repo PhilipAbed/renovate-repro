@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@qsi/lobot", "npm:21.15.1"],
-            ["lodash", "patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."]
+            ["lodash", "npm:4.17.21"]
           ],
           "linkType": "SOFT",
         }]
@@ -80,7 +80,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["graphql", "npm:15.5.0"],
             ["graphql-relay", "virtual:3051cb58ac158d6d9a51e19ca3f42e17b8741ba11fd85f70ff62cdd9d5377cd2489bb7a23d78d9996283d9f228d0edb4b9f5515a9814ac1ac2a793d4435a9c2f#npm:0.6.0"],
             ["invariant", "npm:2.2.4"],
-            ["lodash", "patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."],
+            ["lodash", "npm:4.17.21"],
             ["node-fetch", "npm:2.6.1"],
             ["pluralize", "npm:8.0.0"],
             ["utility-types", "npm:3.10.0"]
@@ -124,7 +124,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@4c/logging", "npm:0.4.0"],
             ["@4c/env", "npm:1.2.6"],
-            ["lodash", "patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."],
+            ["lodash", "npm:4.17.21"],
             ["winston", "npm:3.3.3"]
           ],
           "linkType": "HARD",
@@ -132,7 +132,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@apollo/protobufjs", [
         ["npm:1.0.5", {
-          "packageLocation": "./.yarn/unplugged/@apollo-protobufjs-npm-1.0.5-a95d547915/node_modules/@apollo/protobufjs/",
+          "packageLocation": "./.yarn/cache/@apollo-protobufjs-npm-1.0.5-a95d547915-593f898542.zip/node_modules/@apollo/protobufjs/",
           "packageDependencies": [
             ["@apollo/protobufjs", "npm:1.0.5"],
             ["@protobufjs/aspromise", "npm:1.1.2"],
@@ -393,7 +393,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jsonwebtoken", "npm:8.5.1"],
             ["jwks-rsa", "npm:2.0.2"],
             ["jwt-decode", "npm:3.1.2"],
-            ["lodash", "patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."],
+            ["lodash", "npm:4.17.21"],
             ["multer", "npm:1.4.2"],
             ["node-fetch", "npm:2.6.1"],
             ["pluralize", "npm:8.0.0"],
@@ -1735,14 +1735,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js", [
         ["npm:2.6.12", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-2.6.12-0b93d77d31/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-2.6.12-0b93d77d31-b865823ce9.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:2.6.12"]
           ],
           "linkType": "HARD",
         }],
         ["npm:3.10.1", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.10.1-e4bd755b23/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-3.10.1-e4bd755b23-5329c1bb03.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:3.10.1"]
           ],
@@ -3207,10 +3207,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lodash", [
-        ["patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A.", {
-          "packageLocation": "./.yarn/unplugged/lodash-patch-0b3fe55333/node_modules/lodash/",
+        ["npm:4.17.21", {
+          "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-4983720b9a.zip/node_modules/lodash/",
           "packageDependencies": [
-            ["lodash", "patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."]
+            ["lodash", "npm:4.17.21"]
           ],
           "linkType": "HARD",
         }]
@@ -4052,7 +4052,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["protobufjs", [
         ["npm:6.10.2", {
-          "packageLocation": "./.yarn/unplugged/protobufjs-npm-6.10.2-f0f2cab7fe/node_modules/protobufjs/",
+          "packageLocation": "./.yarn/cache/protobufjs-npm-6.10.2-f0f2cab7fe-09d6292362.zip/node_modules/protobufjs/",
           "packageDependencies": [
             ["protobufjs", "npm:6.10.2"],
             ["@protobufjs/aspromise", "npm:1.1.2"],
@@ -4256,7 +4256,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["renovate-repro", "workspace:."],
             ["@qsi/lobot", "npm:21.15.1"],
-            ["lodash", "patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."]
+            ["lodash", "npm:4.17.21"]
           ],
           "linkType": "SOFT",
         }]

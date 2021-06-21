@@ -249,7 +249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@qsi/lobot@npm:^21.15.1":
+"@qsi/lobot@npm:21.15.1":
   version: 21.15.1
   resolution: "@qsi/lobot@npm:21.15.1"
   dependencies:
@@ -2629,17 +2629,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.16.0":
-  version: 4.16.0
-  resolution: "lodash@npm:4.16.0"
-  checksum: 638e47679ff1ea4e95f68589171337f7e7e57bc6e2035a1cd82c6eba5b7d41f619ab7b083e4216511792d34d2e162879564614fea0c2ebcb494e85ed9de5a02a
-  languageName: node
-  linkType: hard
-
-"lodash@patch:lodash@npm:4.16.0#patches/lodash.patch::locator=renovate-repro%40workspace%3A.":
-  version: 4.16.0
-  resolution: "lodash@patch:lodash@npm%3A4.16.0#patches/lodash.patch::version=4.16.0&hash=1ef969&locator=renovate-repro%40workspace%3A."
-  checksum: 31aafda596dacff99a467e711e68e639b81a5a83e4f097e48d1478cc7941b455971492448aa63d2d3891c6a4b14cfeb7af1054481aef43fef0359e20a9507bed
+"lodash@npm:4.17.21":
+  version: 4.17.21
+  resolution: "lodash@npm:4.17.21"
+  checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
   languageName: node
   linkType: hard
 
@@ -3470,8 +3463,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-repro@workspace:."
   dependencies:
-    "@qsi/lobot": ^21.15.1
-    lodash: ^4.16.0
+    "@qsi/lobot": 21.15.1
+    lodash: 4.17.21
   dependenciesMeta:
     lodash@4.16.0:
       unplugged: true

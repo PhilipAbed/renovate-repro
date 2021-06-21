@@ -1,11 +1,11 @@
 {
   "name": "renovate-repro",
   "dependencies": {
-    "@qsi/lobot": "^21.15.1",
-    "lodash": "^4.16.0"
+    "@qsi/lobot": "21.15.1",
+    "lodash": "4.17.21"
   },
   "resolutions": {
-    "lodash": "patch:lodash@npm:4.16.0#patches/lodash.patch"
+    "lodash": "4.17.21"
   },
   "dependenciesMeta": {
     "lodash@4.16.0": {
